@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" async></script>
+    <!--    <script src="./script.js" defer></script>-->
+</head>
+
+<body>
+    <p>Дан код:</p>
+    <p>var a = 1, b = 1, c, d;</p>
+    <p>c = ++a; alert(c); // 2</p>
+    <p>d = b++; alert(d); // 1</p>
+    <p>c = (2 + ++a); alert(c); // 5</p>
+    <p>d = (2 + b++); alert(d); // 4</p>
+    <p>alert(a); // 3</p>
+    <p>alert(b); // 3</p>
+    <p>Почему код даёт именно такие результаты?</p>
+    <button onclick="task1()" class="but_1">Ответ</button>
+    <p>Чему равен х в примере ниже?</p>
+    <p>var a = 2;</p>
+    <p>var x = 1 + (a *= 2);</p>
+    <br><button onclick="task2()" class="but_2">Ответ</button>
+
+    <p>Работа с условием</p>
+    <br><label for="inp_1">Введите целочисленное число 1:</label>
+    <input type="text" id="inp_1">
+    <br><label for="inp_1">Введите целочисленное число 2:</label>
+    <input type="text" id="inp_2">
+    <br><button onclick="task3()" class="but_3">Ответ</button>
+    <p><label for="inp_3">Введите любое целочисленное число между 0 и 15 включительно:</label></p>
+    <br><input type="text" id="inp_3">
+    <br><button onclick="task4()" class="but_4">Ответ</button>
+
+    <p>Вызов функции к каждой операции поочередно</p>
+    <br><label for="inp_4">Введите первое число</label>
+    <input type="text" id="inp_4">
+    <br><label for="inp_6">Введите второе число</label>
+    <input type="text" id="inp_6">
+    <br><button onclick="task5()" class="but_4">Вызвать четыре функции подряд</button>
+
+    <p>Вызов функции только по знаку операции</p>
+    <br><label for="inp_7">Введите первое число</label>
+    <input type="text" id="inp_7">
+    <label for="inp_5">Знак операции (+, -, /, *)</label>
+    <input type="text" id="inp_5">
+    <label for="inp_8">Второе число</label>
+    <input type="text" id="inp_8">
+    <br><button onclick="task6()" class="but_4">Ответ по операции</button>
+
+    <p> null > 0 false</p>
+    <p> null == 0 false</p>
+    <p> null >= 0 true</p>
+    <br><button onclick="task7()" class="but_4">Почему так?</button>
+
+    <p>Возвести в степень рекурсивно</p>
+    <br><label for="inp_9">Введите число</label>
+    <input type="text" id="inp_9">
+    <br><label for="inp_10">Введите степень</label>
+    <input type="text" id="inp_10">
+    <br><button onclick="task8()" class="but_4">Ответ</button>
+</body>
+
+</html>
