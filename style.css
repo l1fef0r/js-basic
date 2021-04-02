@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+}
+.but_1 {
+    width: 300px;
+    left: 0px;
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 122, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffe;
+}
+.but_2 {
+    width: 300px;
+    left: 0px;
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 122, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffe;
+}
+
+.but_3 {
+    width: 300px;
+    left: 0px;
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 122, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffe;
+}
+.but_4 {
+    width: 300px;
+    left: 0px;
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 122, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffe;
+}
